@@ -3,7 +3,7 @@
 .contenido {
     background: #010101;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-position: center center;
 	background-size: cover;
 }
@@ -32,7 +32,7 @@
 }
 
 .inicio .titulo h1{
-    font-size: 4.5rem;
+    font-size: 7.5rem;
     color: var(--green);
 }
 

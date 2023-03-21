@@ -1,4 +1,5 @@
 /********************** header **********************/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
 
 .site-header {
   position: fixed;
@@ -14,9 +15,9 @@
 }
 
 .site-header .logo {
-  font-family: "Bebas Neue", cursive;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 2.6rem;
-  color: rgb(231, 13, 13);
+  color: #ce1936;
 }
 
 .site-header .logo span {

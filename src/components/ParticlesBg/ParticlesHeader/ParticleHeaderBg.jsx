@@ -166,6 +166,16 @@ export default function ParticleHeaderBg() {
                   width: 10,
                   height: 10,
                 },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+                  width: 10,
+                  height: 10,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
+                  width: 10,
+                  height: 10,
+                },
               ],
               images: [
               
@@ -198,6 +208,16 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  width: 10,
+                  height: 10,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+                  width: 10,
+                  height: 10,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
                   width: 10,
                   height: 10,
                 },

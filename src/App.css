@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --green:#00e5fe;
+    --green: #ce1936;
     --secundario: #15b8ca;
     --terciario: #00fefe;
     --black:#121f41;
@@ -199,7 +199,7 @@ body.dark .btn::after {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     z-index: 1!important;
 }
 

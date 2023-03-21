@@ -15,22 +15,17 @@ const Content = () => (
         
             <div className="titulo">
             
-                <p data-aos="fade-up" data-aos-delay="600">
-                    <FormattedMessage
-                        id='greeting'
-                        defaultMessage='Hello'
-                    />
-                </p>
+                
                 <h1 data-aos="fade-up" data-aos-delay="800">
                     <FormattedMessage
                         id='name'
-                        defaultMessage='I am Jeremiah Melfah'
+                        defaultMessage='Hey There! I am Jeremiah Melfah'
                     />
                 </h1>
                 <p data-aos="fade-up" data-aos-delay="1000">
                     <FormattedMessage
                         id='rol'
-                        defaultMessage='Full-stack developer'
+                        defaultMessage='A Full-stack developer'
                     />
                 </p>
 

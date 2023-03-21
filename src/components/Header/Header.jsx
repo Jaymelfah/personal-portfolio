@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import './Header.css';
 /* ReactScroll */
 import { Link } from 'react-scroll';
@@ -11,11 +11,11 @@ import DarkMode from '../DarkMode/DarkMode';
 
 /* Language */
 import { FormattedMessage } from "react-intl";
-import { langContext } from '../../context/Context';
+
 
 const Header = () => {
     // Buttom language
-    const idioma = useContext(langContext);
+  
     // Menu desplegable
     const menuDesplegable = () => {
         let navbar = document.querySelector('.navbar');
@@ -51,12 +51,6 @@ const Header = () => {
                         defaultMessage='About me'
                     />
                 </Link>
-                <Link to="servicios" spy={true} offset={-150} href="#servicios">
-                    <FormattedMessage
-                        id='services'
-                        defaultMessage='Services'
-                    />
-                </Link>
                 <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
                     <FormattedMessage
                         id='projects'
@@ -69,10 +63,6 @@ const Header = () => {
                         defaultMessage='Contact'
                     />
                 </Link>
-                <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

@@ -46,11 +46,7 @@ const Contact = () => {
           steps={[
             "Gmail",
             1500,
-            "WhatsApp",
-            1500,
-            "Instragram",
-            1500,
-            "Telegram",
+            "Twitter",
             1500,
             "Linkedin",
             1500,
@@ -94,7 +90,7 @@ const Contact = () => {
 
       <div className="icons">
         <a
-          href="mailto:estebancarrizo619@gmail.com"
+          href="mailto:jerasterix@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           data-aos="zoom-in"
@@ -109,7 +105,7 @@ const Contact = () => {
           <div className="text">Gmail</div>
         </a>
         <a
-          href="https://api.whatsapp.com/send?phone=5493815360966"
+          href="https://twitter.com/JMelfah1"
           target="_blank"
           rel="noopener noreferrer"
           data-aos="zoom-in"
@@ -119,42 +115,12 @@ const Contact = () => {
             <span></span>
             <span></span>
             <span></span>
-            <span className="fab fa-whatsapp"></span>
+            <span className="fab fa-twitter"></span>
           </div>
-          <div className="text">Whatsapp</div>
+          <div className="text">Twitter</div>
         </a>
         <a
-          href="https://www.instagram.com/nahuelcarrizolc/"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-aos="zoom-in"
-        >
-          <div className="layer">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span className="fab fa-instagram"></span>
-          </div>
-          <div className="text">Instagram</div>
-        </a>
-        <a
-          href="https://t.me/estebanU20"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-aos="zoom-in"
-        >
-          <div className="layer">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span className="fab fa-telegram"></span>
-          </div>
-          <div className="text">telegram</div>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/"
+          href="https://www.linkedin.com/in/jeremiah-melfah/"
           target="_blank"
           rel="noopener noreferrer"
           data-aos="zoom-in"
@@ -169,7 +135,7 @@ const Contact = () => {
           <div className="text">Linkedin</div>
         </a>
         <a
-          href="https://github.com/Nahuel61920/"
+          href="https://github.com/Jaymelfah"
           target="_blank"
           rel="noopener noreferrer"
           data-aos="zoom-in"
