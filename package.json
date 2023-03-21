@@ -1,40 +1,53 @@
 {
-  "name": "webpack-setup",
-  "version": "1.0.0",
-  "description": "",
-  "private": "true",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "start": "webpack serve --open",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaymelfah/Webpack-setup.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jaymelfah/Webpack-setup/issues"
-  },
-  "homepage": "https://github.com/Jaymelfah/Webpack-setup#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "css-loader": "^6.7.1",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0",
-    "express": "^4.18.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-middleware": "^5.3.3",
-    "webpack-dev-server": "^4.11.1"
-  },
+  "name": "portafolio-nahuel61920",
+  "homepage": "https://Nahuel61920.github.io/portafolio-Nahuel/",
+  "version": "1.5.0",
+  "private": true,
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-intl": "^5.25.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.7",
+    "react-spinners": "^0.11.0",
+    "react-tsparticles": "^2.1.3",
+    "react-typical": "^0.1.3",
+    "swiper": "^8.1.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tsparticles": "^2.1.3",
+    "gh-pages": "^3.2.3"
   }
 }
