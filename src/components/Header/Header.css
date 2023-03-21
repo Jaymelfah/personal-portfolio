@@ -108,7 +108,7 @@ body.light #darkMode::after {
 }
 
 body.dark #darkMode {
-  background: orange;
+  background: #ce1936;
   color: #000;
   border-radius: 100px;
   border: none;

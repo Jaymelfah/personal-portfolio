@@ -126,7 +126,7 @@ const About = () => (
             <img
               alt="php"
               className="icons-skils"
-              src="https://w7.pngwing.com/pngs/782/228/png-transparent-ruby-on-rails-rubygems-amazon-dynamodb-ruby-text-logo-ruby-thumbnail.png"
+              src="https://cdn.icon-icons.com/icons2/2415/PNG/512/rails_plain_logo_icon_146376.png"
             />
             <h5>Rails</h5>
           </div>
