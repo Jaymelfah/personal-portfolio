@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-Nahuel/static/css/main.52cba71e.css",
-    "main.js": "/portafolio-Nahuel/static/js/main.fe3ffde6.js",
+    "main.js": "/portafolio-Nahuel/static/js/main.a390f7c7.js",
     "static/js/787.ecc39371.chunk.js": "/portafolio-Nahuel/static/js/787.ecc39371.chunk.js",
     "static/media/Thumbs.db": "/portafolio-Nahuel/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-app-17-com.png": "/portafolio-Nahuel/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
@@ -68,11 +68,11 @@
     "static/media/proyecto-app-2.jpg": "/portafolio-Nahuel/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/portafolio-Nahuel/index.html",
     "main.52cba71e.css.map": "/portafolio-Nahuel/static/css/main.52cba71e.css.map",
-    "main.fe3ffde6.js.map": "/portafolio-Nahuel/static/js/main.fe3ffde6.js.map",
+    "main.a390f7c7.js.map": "/portafolio-Nahuel/static/js/main.a390f7c7.js.map",
     "787.ecc39371.chunk.js.map": "/portafolio-Nahuel/static/js/787.ecc39371.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52cba71e.css",
-    "static/js/main.fe3ffde6.js"
+    "static/js/main.a390f7c7.js"
   ]
 }
