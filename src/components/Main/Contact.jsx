@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "../../pages/Contact/ContactPage.css";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 /* TypedJs */
 import Typical from "react-typical";
 
@@ -30,10 +33,12 @@ const Contact = () => {
       setName('');
       setEmail('');
       setMessage('');
+      toast.success('Message sent successfully');
   };
 
   return (
     <section className="contactos" id="contactos">
+        <ToastContainer theme="colored" position="bottom-center" />
       <h2 className="heading">
         <FormattedMessage id="contact" defaultMessage="Contact" />
       </h2>
@@ -65,6 +70,7 @@ const Contact = () => {
             type="text"
             placeholder="Type Your Name Here"
             onChange={(e) => setName(e.target.value)}
+            required
           />
           <input
             className="input"
@@ -73,6 +79,7 @@ const Contact = () => {
             name="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
           <textarea
             className="input-message"
@@ -81,6 +88,7 @@ const Contact = () => {
             name="Message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            required
           />
           <button className="submit" type="submit">
             Send Message
