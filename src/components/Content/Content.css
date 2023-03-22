@@ -113,6 +113,15 @@
     display: none;
 }
 
+.cta {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.cta :hover{
+  color: #ce1936;
+}
+
 .scroll-down {
     height: 50px;
     width: 30px;

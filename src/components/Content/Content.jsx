@@ -54,10 +54,15 @@ const Content = () => (
                         <span>Twitter</span>
                     </a>
                 </div>
+                <Link className="cta" to="contactos" spy={true} offset={-150} href="#contactos">
+                       <span className="cta">Need help on a project? Send me a message</span>
+                </Link>
+                
 
                 <Link to="sobre-mi" href="#sobre-mi">
                     <div className="scroll-down"></div>
                 </Link>
+
             </div>
         </section>
     </div>
