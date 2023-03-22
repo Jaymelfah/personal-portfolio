@@ -32,7 +32,7 @@ const Content = () => (
                 <div className="redes-sociales">
                     <a href="https://www.linkedin.com/in/jeremiah-melfah" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Jaymelfah" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
-                    <a href="https://twitter.com/JMelfah1" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://twitter.com/JMelfah1" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i class="fab fa-twitter"></i></a>
                 </div>
                 <div className="wrapper">
                     <a className="button" href="https://www.linkedin.com/in/jeremiah-melfah" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
